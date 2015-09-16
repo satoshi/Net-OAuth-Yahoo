@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Net/OAuth/Yahoo.pm
+t/00-load.t
+test_deeply.pl
