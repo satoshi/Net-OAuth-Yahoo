@@ -1,4 +1,10 @@
 Revision history for Net-OAuth-Yahoo
+
+1.0.0   2016/12/27
+        Fixing sim_present_auth to use form_number as Yahoo changed the login page (credit goes to Roman P).
+        Changing to semantic versioning, bumping the major version because 0.06 is v0.60.0 normalized, and I'm not
+        making the new version 0.61.0.
+
 0.06    2012/6/21
         Fixing version info as I forgot to update one place.
 

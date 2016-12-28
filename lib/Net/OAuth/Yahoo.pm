@@ -15,11 +15,11 @@ Net::OAuth::Yahoo - Provides simple interface to access Yahoo! APIs
 
 =head1 VERSION
 
-Version 0.06
+Version 1.0.0
 
 =cut
 
-our $VERSION = '0.06';
+our $VERSION = '1.0.0';
 our $ERRMSG  = undef;
 $Net::OAuth::PROTOCOL_VERSION = Net::OAuth::PROTOCOL_VERSION_1_0A;
 
@@ -303,7 +303,7 @@ sub sim_present_auth {
     $mech->get($url);
 
     $mech->submit_form(
-        form_name => "login_form",
+        form_number => 0,
         fields    => {
             login  => $yid->{login},
             passwd => $yid->{passwd},
